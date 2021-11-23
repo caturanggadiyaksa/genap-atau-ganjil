@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int angka;  //deklarasi angka
+
+  cout << "masukan angka :";
+  cin >> angka; // untuk inputan angka yg akan dimasukan
+
+  if ((angka%2) == 0) //jika angka inputan habis di bagi dua
+    cout << "genap" << endl; // jika benar maka cetak genap
+  else //jika salah
+    cout << "ganjil" << endl; //cetak ganjil
+
+  return 0;
+} 
